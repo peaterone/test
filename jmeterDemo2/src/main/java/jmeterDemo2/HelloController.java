@@ -45,7 +45,7 @@ public class HelloController {
     public @ResponseBody Object info(String name, String pwd) {
         List<String> userList = new ArrayList<>();
         userList.add(name);
-        userList.add(pwd);
+        userList.add("此处是个pwd");
         userList.add(name.length()+"");
         System.out.println("get request, info api");
 		return userList;
