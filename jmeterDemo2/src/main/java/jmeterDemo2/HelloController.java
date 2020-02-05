@@ -50,6 +50,7 @@ public class HelloController {
         userList.add(name.length()+"本行代码是多余的");
         userList.add(name.length()+"工作区和暂存区");
         userList.add(name.length()+"工作区和暂存区");
+        userList.add(name.length()+"我是master");
         System.out.println("get request, info api");
 		return userList;
     }
